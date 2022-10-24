@@ -1,8 +1,8 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 
 import * as THREE from "three";
 
-import { Loader, OrbitControls, softShadows } from "@react-three/drei";
+import { Loader, softShadows } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import Ground from "./components/Ground";
